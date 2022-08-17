@@ -8,4 +8,4 @@
 4. Entender os principais tipos de dados e as diferenças entre valores primitivos e referências (ponteiros).
 
 ---
-> “First, solve the problem. Then, write the code.” – John Johnson
+> “First, solve the problem. Then, write the code.” –> John Johnson 
