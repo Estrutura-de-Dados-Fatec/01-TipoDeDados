@@ -6,6 +6,8 @@ using namespace std;
 
 int main()
 {
+    cout << "Esturura de Dados - Fatec" << endl;
+
     cout << "Tipos Numericos\n";
     cout << "===============\n";
     int i = 10;
