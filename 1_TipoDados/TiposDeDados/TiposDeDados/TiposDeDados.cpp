@@ -43,8 +43,35 @@ int main()
     string* ponteiro = &texto;
     cout << "Para a variavel 'texto' do exemplo acima: string* ponteiro = &texto\nO endereco da memoria onde o valor foi armazenado (ponteiro)  = " << ponteiro <<endl;
     cout << "O valor armazendo no local indicado pelo ponteiro e *ponteiro = \"" << *ponteiro << "\"";
-  
+
     cout << endl << endl;
+	
+    system("pause"); // somente no Windows
+    system("cls");
+	
+    cout << "Entrada de Dados" << endl;
+	cout << "================" << endl;
+	string nome = "";
+	int idade = 0;
+	int dias = 0;
+	int horas = 0;
+	int minutos = 0;
+    
+	cout << "Digite seu nome: ";
+	cin >> nome;
+    cout << endl;
+	cout << "Digite sua idade: ";
+	cout << endl;
+	cin >> idade;
+	dias = idade * 365;
+	horas = dias * 24 ;
+	minutos = horas * 60;
+	cout << "Sua idade em dias e: " << dias << endl;
+	cout << "Sua idade em horas e: " << horas << endl;
+	cout << "Sua idade em minutos e: " << minutos << endl;
+    
+	system("pause"); // somente no Windows
+      
     
 }
 
