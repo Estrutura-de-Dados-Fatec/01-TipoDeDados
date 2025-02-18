@@ -70,6 +70,7 @@ int main()
 	minutos = horas  * 60;
 	segs = minutos * 60;
 
+	
 
 	cout << "Sua idade em dias e: " << dias << endl;
 	cout << "Sua idade em horas e: " << horas << endl;
