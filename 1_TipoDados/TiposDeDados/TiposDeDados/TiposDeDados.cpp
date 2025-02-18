@@ -61,6 +61,7 @@ int main()
 	int minutos = 0;
 	int segs = 0;
 
+
 	cout << "Digite seu nome: ";
 	cin >> nome;
 	cout << "Digite sua idade: ";
